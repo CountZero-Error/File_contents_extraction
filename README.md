@@ -1,10 +1,10 @@
 # File_contents_extraction
 This script is aim to extract contents from file with a target list.
 
-# installation
+# Installation
 ```pip install -r requirements.txt```
 
-# usage:  
+# Usage:  
 <pre>
 target_contents_extraction.py [-h] -C CATALOG_FILE  
                                    -I INPUT_FILE  
@@ -16,7 +16,7 @@ target_contents_extraction.py [-h] -C CATALOG_FILE
                                   [-CH CATALOG_HEADER]
 </pre>
 
-# options:  
+# Options:  
 <pre>
   -h, --help            show this help message and exit  
   -C CATALOG_FILE, --CATALOG_FILE CATALOG_FILE  
