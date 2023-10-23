@@ -39,7 +39,7 @@ target_contents_extraction.py [-h] -C CATALOG_FILE
 </pre>
   
 # Example
-aim to extract the id from example.csv
+aim to extract the id from example.csv  
 ```target_contents_extraction.py -C catalog.txt -I example.csv -O extraction.csv -R '\d*(\w*)\d*' -TR 'id=(\d*);'```  
 <pre>
 - catalog.txt:
